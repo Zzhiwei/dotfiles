@@ -1,4 +1,5 @@
 tldr
 zoxide
 eza
+bat
 docker

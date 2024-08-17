@@ -5,6 +5,9 @@
 ############
 xargs brew install < cli_apps.txt
 
+# powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 brew install zsh-autosuggestions
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 

@@ -1,9 +1,7 @@
-tldr
 obsidian
 notion
 visual-studio-code
 sublime-text
 iterm2
-docker
 sourcetree
 spotify

@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(git web-search history macos)
 
@@ -27,3 +27,8 @@ alias ls="eza"
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+##################
+###### alias
+##################
+alias "tree"="eza --tree"
