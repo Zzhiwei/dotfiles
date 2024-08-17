@@ -1,3 +1,4 @@
+tldr
 obsidian
 notion
 visual-studio-code
@@ -6,4 +7,3 @@ iterm2
 docker
 sourcetree
 spotify
-zoxide

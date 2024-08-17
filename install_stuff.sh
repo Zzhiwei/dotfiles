@@ -3,8 +3,7 @@
 ############
 # terminal
 ############
-brew install zoxide
-brew install eza
+xargs brew install < cli_apps.txt
 
 brew install zsh-autosuggestions
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
@@ -26,8 +25,8 @@ brew install --cask git-credential-manager
 # others
 ############
 
-# install apps
-xargs brew install < apps.txt
+# install gui apps --cask option is for large/gui apps
+xargs brew install --cask < gui_apps.txt
 
 # add vscode to terminal
 cat << EOF >> ~/.zprofile

@@ -1,0 +1,4 @@
+tldr
+zoxide
+eza
+docker
