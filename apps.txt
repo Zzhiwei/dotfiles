@@ -1,0 +1,13 @@
+# xargs brew install < apps.txt
+obsidian
+notion
+visual-studio-code
+sublime-text
+iterm2
+docker
+sourcetree
+slack
+discord
+spotify
+vlc
+
