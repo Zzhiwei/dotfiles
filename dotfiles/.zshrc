@@ -42,4 +42,4 @@ fh() {
 ###### alias
 ##################
 alias "tree"="eza --tree"
-alias "ganyhow"="gaa && gcmsg config && gp"
+alias "ganyhow"="gaa && gcmsg change && gp"
