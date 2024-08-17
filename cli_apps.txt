@@ -2,4 +2,5 @@ tldr
 zoxide
 eza
 bat
+fzf
 docker
