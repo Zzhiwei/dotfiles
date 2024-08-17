@@ -28,6 +28,16 @@ alias ls="eza"
 eval "$(zoxide init zsh)"
 alias cd="z"
 
+# fzf command history: fh - repeat history
+fh() {
+  print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')
+}
+
+# fhr - find command and run directly
+fh() {
+  eval $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')
+}
+
 ##################
 ###### alias
 ##################
