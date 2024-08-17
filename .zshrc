@@ -27,11 +27,4 @@ alias ls="eza"
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
 alias cd="z"
-export SSL_CERT_FILE=$HOME/certs/rak-ca-bundle.pem
-export NODE_EXTRA_CA_CERTS=$HOME/certs/rak-ca-bundle.pem
-export REQUESTS_CA_BUNDLE=$HOME/certs/rak-ca-bundle.pem
-export AWS_CA_BUNDLE=$HOME/certs/rak-ca-bundle.pem
-
-
-
 
