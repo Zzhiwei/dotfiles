@@ -6,8 +6,6 @@ sublime-text
 iterm2
 docker
 sourcetree
-slack
-discord
 spotify
-vlc
+zoxide
 
