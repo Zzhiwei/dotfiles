@@ -4,3 +4,4 @@ eza
 bat
 fzf
 docker
+jq
